@@ -68,7 +68,7 @@ with DAG(
         },
         "environment_config": {
             "execution_config": {
-                "service_account": "70622048644-compute@developer.gserviceaccount.com",
+                "service_account": "112140007947-compute@developer.gserviceaccount.com",
                 "network_uri": "projects/data-engineering-456818/global/networks/default",
                 "subnetwork_uri": "data-engineering-456818/regions/us-central1/subnetworks/default",
             }
