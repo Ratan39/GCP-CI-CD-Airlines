@@ -7,8 +7,8 @@ on:
       - main
 jobs:
   upload-to-dev:
-    if: github.ref == 'refs/head/dev'
-    runs-on: unbuntu-latest
+    if: github.ref == 'refs/heads/dev'
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
@@ -46,8 +46,8 @@ jobs:
             --source airflow_job/airflow_job.py
       
   upload-to-prod:
-    if: github.ref == 'refs/head/main'
-    runs-on: unbuntu-latest
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Code
