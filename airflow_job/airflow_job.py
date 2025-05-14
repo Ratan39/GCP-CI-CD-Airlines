@@ -70,7 +70,7 @@ with DAG(
             "execution_config": {
                 "service_account": "112140007947-compute@developer.gserviceaccount.com",
                 "network_uri": "projects/data-engineering-456818/global/networks/default",
-                "subnetwork_uri": "data-engineering-456818/regions/us-central1/subnetworks/default",
+                "subnetwork_uri": "https://www.googleapis.com/compute/v1/projects/data-engineering-456818/regions/us-central1/subnetworks/default"
             }
         },
     }
